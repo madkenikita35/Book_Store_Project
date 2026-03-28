@@ -51,7 +51,7 @@ const CreateBook = () => {
             type="text"
             value={auther}
             onChange={(e) => setAuther(e.target.value)}
-            className="border-2 border-gray-500 px-4 py-2 w-full"
+            className="border-2 border-gray-500 px-4 py-2 w-full "
           />
         </div>
         <div className="my-4">
