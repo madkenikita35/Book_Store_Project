@@ -55,7 +55,7 @@ const CreateBook = () => {
           />
         </div>
         <div className="my-4">
-          <label className="text-xl mr-4 text-gray-500"> publishYear</label>
+          <label className="text-xl mr-4 text-gray-500">PublishYear</label>
           <input
             type="text"
             value={publishYear}
