@@ -25,7 +25,7 @@ const CreateBook = () => {
       })
       .catch((error) => {
         setLoading(false);
-        alert("An Error happened.  Please check Console");
+        alert("An Error Happened.  Please check Console");
         console.log(error);
       });
   };
