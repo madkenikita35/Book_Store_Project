@@ -32,7 +32,7 @@ const DeleteBook = () => {
           Are you Sure You Want to Delete This Book ?..
         </h3>
         <button
-          className="p-4 bg-red-600 text-white m-8 w-full"
+          className=" p-4 bg-red-600 text-white m-8 w-full"
           onClick={handleDeleteBook}
         >
           Yes, delete it..
