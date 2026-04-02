@@ -37,7 +37,7 @@ const CreateBook = () => {
       {loading ? <Spinner /> : ""}
       <div className=" flex flex-col border border-sky-400 rounded-xl w-[600px] p-4 mx-auto">
         <div className="my-4">
-          <label className="text-xl mr-4 text-gray-500">Title </label>
+          <label className="text-xl mr-4 text-gray-500 ">Title </label>
           <input
             type="text"
             value={title}
