@@ -37,7 +37,7 @@ const CreateBook = () => {
       {loading ? <Spinner /> : ""}
       <div className=" flex flex-col border border-sky-400 rounded-xl w-[600px] p-4 mx-auto">
         <div className="my-4">
-          <label className="text-xl mr-4 text-gray-500 ">Title </label>
+          <label className="text-xl mr-4 text-gray-500">Title </label>
           <input
             type="text"
             value={title}
@@ -46,12 +46,12 @@ const CreateBook = () => {
           />
         </div>
         <div className="my-4">
-          <label className="text-xl mr-4 text-gray-500 ">Auther</label>
+          <label className="text-xl mr-4 text-gray-500">Auther</label>
           <input
             type="text"
             value={auther}
             onChange={(e) => setAuther(e.target.value)}
-            className="border-2 border-gray-500 px-4 py-2 w-full "
+            className="border-2 border-gray-500 px-4 py-2 w-full"
           />
         </div>
         <div className="my-4">
