@@ -50,7 +50,7 @@ const EditBook = () => {
   };
 
   return (
-    <div className="p-4 ">
+    <div className=" p-4 ">
       <BackButton />
       <h1 className="text-3xl my-4">Edit Book</h1>
       {loading ? <Spinner /> : ""}
