@@ -18,7 +18,7 @@ const DeleteBook = () => {
       })
       .catch((error) => {
         setLoading(false);
-        alert("An error happened. Please Check Console ");
+        alert("An error happened. Please Check Console");
         console.log(error);
       });
   };
