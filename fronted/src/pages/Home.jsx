@@ -34,7 +34,7 @@ const Home = () => {
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundPosition: " center",
       }}
       bg-cover
       bg-center
