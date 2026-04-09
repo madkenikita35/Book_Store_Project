@@ -47,7 +47,7 @@ const Home = () => {
           Table
         </button>
         <button
-          className=" bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-1g"
+          className="bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-1g"
           onClick={() => setShowType("card")}
         >
           Card
