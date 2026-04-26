@@ -33,7 +33,7 @@ const Home = () => {
       className="p-4"
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
+        backgroundSize: " cover ",
         backgroundPosition: "center",
       }}
       bg-cover
