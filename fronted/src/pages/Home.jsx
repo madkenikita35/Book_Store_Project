@@ -62,7 +62,7 @@ const Home = () => {
       </div>
       {loading ? (
         <Spinner />
-      ) : ShowType === "table " ? (
+      ) : ShowType === "table" ? (
         <BooksTable books={books} />
       ) : (
         <BooksCard books={books} />
