@@ -41,7 +41,7 @@ const Home = () => {
     >
       <div className=" flex justify-center items-center gap-x-4 ">
         <button
-          className="bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-1g"
+          className=" bg-sky-300 hover:bg-sky-600 px-4 py-1 rounded-1g "
           onClick={() => setShowType("table")}
         >
           Table
