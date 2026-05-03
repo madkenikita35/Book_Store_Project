@@ -25,7 +25,7 @@ const BooksTable = ({ books }) => {
             <td className=" border border-slate-700 rounded-md text-center">
               {index + 1}
             </td>
-            <td className="border border-slate-700 rounded-md text-center">
+            <td className="border border-slate-700 rounded-md text-center ">
               {book.title}
             </td>
             <td className="border border-slate-700 rounded-md text-center max-md:hidden">
