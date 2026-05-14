@@ -28,7 +28,7 @@ const BooksTable = ({ books }) => {
             <td className=" border border-slate-700 rounded-md text-center ">
               {book.title}
             </td>
-            <td className="border border-slate-700 rounded-md text-center max-md:hidden ">
+            <td className=" border border-slate-700 rounded-md text-center max-md:hidden ">
               {book.auther}
             </td>
             <td className=" border border-slate-700 rounded-md text-center max-md:hidden">
@@ -40,7 +40,7 @@ const BooksTable = ({ books }) => {
                   <BsInfoCircle className=" text-2xl text-green-800 " />
                 </Link>
                 <Link to={`/books/edit/${book._id}`}>
-                  <AiOutlineEdit className="text-2xl text-yellow-600" />
+                  <AiOutlineEdit className=" text-2xl text-yellow-600 " />
                 </Link>
                 <Link to={`/books/delete/${book._id}`}>
                   <MdOutlineDelete className=" text-2xl text-red-600" />
