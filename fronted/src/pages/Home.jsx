@@ -30,7 +30,7 @@ const Home = () => {
 
   return (
     <div
-      className=" p-4 "
+      className="p-4"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: " cover ",
