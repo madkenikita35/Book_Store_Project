@@ -22,7 +22,7 @@ const BooksCard = ({ books }) => {
             <PiBookOpenTextLight className="text-red-300 text-2xl " />
             <h2 className="my-1">{item.title}</h2>
           </div>
-          <div className=" flex justify-start items-center gap-x-2">
+          <div className=" flex justify-start items-center gap-x-2 ">
             <BiUserCircle className="text-red-300 text-2xl" />
             <h2 className=" my-1">{item.auther}</h2>
           </div>
