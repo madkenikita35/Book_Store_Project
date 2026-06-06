@@ -26,9 +26,9 @@ const BooksCard = ({ books }) => {
             <BiUserCircle className="text-red-300 text-2xl " />
             <h2 className=" my-1 ">{item.auther}</h2>
           </div>
-          <div className=" flex justify-between items-center gap-x-2 mt-4 p-4 ">
+          <div className=" flex justify-between items-center gap-x-2 mt-4 p-4">
             <Link to={`./books/details/${item._id}`}>
-              <BsInfoCircle className="text-2xl text-green-800 hover:text-black " />
+              <BsInfoCircle className="text-2xl text-green-800 hover:text-black" />
             </Link>
             <Link to={`./books/edit/${item._id}`}>
               <AiOutlineEdit className=" text-2xl text-yellow-600 hover:text-black" />
