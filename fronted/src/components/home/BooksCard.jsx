@@ -31,7 +31,7 @@ const BooksCard = ({ books }) => {
               <BsInfoCircle className=" text-2xl text-green-800 hover:text-black " />
             </Link>
             <Link to={`./books/edit/${item._id}`}>
-              <AiOutlineEdit className=" text-2xl text-yellow-600 hover:text-black " />
+              <AiOutlineEdit className="text-2xl text-yellow-600 hover:text-black " />
             </Link>
             <Link to={`./books/delete/${item._id}`}>
               <MdOutlineDelete className=" text-2xl text-red-600 hover:text-black" />
