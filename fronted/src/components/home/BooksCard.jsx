@@ -34,7 +34,7 @@ const BooksCard = ({ books }) => {
               <AiOutlineEdit className=" text-2xl text-yellow-600 hover:text-black" />
             </Link>
             <Link to={`./books/delete/${item._id}`}>
-              <MdOutlineDelete className="text-2xl text-red-600 hover:text-black " />
+              <MdOutlineDelete className=" text-2xl text-red-600 hover:text-black " />
             </Link>
           </div>
         </div>
