@@ -28,10 +28,10 @@ const BooksTable = ({ books }) => {
             <td className=" border border-slate-700 rounded-md text-center ">
               {book.title}
             </td>
-            <td className=" border border-slate-700 rounded-md text-center max-md:hidden ">
+            <td className="border border-slate-700 rounded-md text-center max-md:hidden ">
               {book.auther}
             </td>
-            <td className=" border border-slate-700 rounded-md text-center max-md:hidden">
+            <td className="border border-slate-700 rounded-md text-center max-md:hidden">
               {book.publishYear}
             </td>
             <td className="border border-slate-700 rounded-md text-center">
