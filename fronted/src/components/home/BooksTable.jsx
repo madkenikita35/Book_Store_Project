@@ -22,13 +22,13 @@ const BooksTable = ({ books }) => {
       <tbody>
         {books.map((book, index) => (
           <tr key={book._id} className="h-8">
-            <td className="border border-slate-700 rounded-md text-center ">
+            <td className=" border border-slate-700 rounded-md text-center ">
               {index + 1}
             </td>
-            <td className="border border-slate-700 rounded-md text-center ">
+            <td className=" border border-slate-700 rounded-md text-center ">
               {book.title}
             </td>
-            <td className="border border-slate-700 rounded-md text-center max-md:hidden ">
+            <td className=" border border-slate-700 rounded-md text-center max-md:hidden ">
               {book.auther}
             </td>
             <td className="border border-slate-700 rounded-md text-center max-md:hidden">
