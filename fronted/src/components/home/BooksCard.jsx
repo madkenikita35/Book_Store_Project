@@ -12,7 +12,7 @@ const BooksCard = ({ books }) => {
       {books.map((item) => (
         <div
           key={item.id}
-          className=" border-2 border-gray-500 rounded-lg px-4 m-4 relative hover:shadow-xl "
+          className="border-2 border-gray-500 rounded-lg px-4 m-4 relative hover:shadow-xl "
         >
           <h2 className=" absolute top-1 right-2 px-4 py-1 bg-red-300 rounded-lg ">
             {item.publishYear}
